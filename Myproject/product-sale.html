@@ -1,0 +1,259 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/product-sale.css">
+  <link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/footer.css">
+ </head>
+ <body >
+  <div class="main">
+     <header id="header">	
+    	<img src="img/loading.gif" alt="加载中...">
+		 </header>
+
+    <div class="product-sale clear">
+      <!--产品头部  -->
+      <div class="product-sale-title">
+        <span>首页</span>
+        <span>&gt;</span>
+        <span>休闲零食</span>
+        <span>&gt;</span>
+        <span>甜品</span>
+      </div>
+      <!-- 产品详情 -->
+      <div class="product-sale-details left clear">
+        <div class="product-sale-img">
+          <img id="mImg" src="img/product-sale/bigengguo/bigengguo-md(1).jpg" alt="">
+          <div id="mask"></div>
+          <div id="superMask"></div>
+        </div>
+        <div id="largeDiv"></div>
+        <div class="product-sale-sm clear">
+          <a class="backward disabled"></a>
+          <a class="forward"></a>
+          <ul id="icon_list">
+            <!--<li><img src="${pic.sm}" data-md="${pic.md}" data-lg="${pic.lg}" alt="" class="Img-move"></li> -->
+          </ul>
+        </div>
+      </div>
+      <div class="product-sale-details rg left clear">
+        <p>【瓜慕香看_香妃葡萄干】 新疆特产红提子500g 干果休闲零食</p>
+        <div class="product-sale-dts clear">
+          <div class="product-sale-price"><p>售&nbsp;价:<span> ¥10.99</span></p>
+            <p class="promise">服务承诺： *退货补运费 *30天无忧退货 *48小时快速退款 *72小时发货</p>
+          </div>
+          <p><span>客&nbsp;服:</span><span class="server">联系客服</span><img src="img/product-details/kefuf.gif" alt=""></p> 
+          <div class="clear pd-lib">
+            <span class="left productSpc">规&nbsp;格:</span>
+            <ul class="product-spec">
+							<!--<li><a href="#" class="active">单品装500g</a></li> -->
+              <!--  <li><a href="#">单品装500g</a></li> -->
+              <!-- <li><a href="#">单品装500g</a></li> -->
+              <!-- <li><a href="#">单品装500g</a></li> -->
+            </ul>
+          </div>
+          <div class="product-count" id="count">
+            <span>数&nbsp;量:</span>
+            <button class="btn reduce">-</button>
+            <input class="Text" type="text" value="1">
+            <button class="btn add">+</button>
+          </div>
+          <ul class="cart-url">
+            <li><a href="javascript:;" >立即购买</a></li>
+            <li><a href="javascript:;" class="addCart"><img src="img/product-details/product_detail_img7.png" alt=""><span>加入购物车</span></a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- 滚动购物车 -->
+      <div id="cart">
+          <!-- 1、购物车标题 -->
+					<p class="title">
+                <span>购物车</span>
+                <a href="javascript:;">清空</a>
+          </p>
+            
+          <div class="cart_content">
+            <!-- 1、内容1 -->
+            <!--<div class="item" data-iid="2">-->
+              <!--<span>三只松鼠</span>-->
+              <!--<div>-->
+                <!--<span class="reduce">-</span>-->
+                <!--<input type="text" value="1">-->
+                <!--<span class="add">+</span>-->
+              <!--</div>-->
+              <!--<p>-->
+                <!--<span>¥56.90</span>	-->
+              <!--</p>-->
+            <!--</div>-->
+          </div>
+          <!-- 3、购物车结算 -->
+          <div class="cart-result">
+            <span>
+              <img src="img/logo/shop_car.png">
+              ￥<span class="result" id="total">0.00</span>	
+            </span>
+            <a href="javascript:;">去结算</a>
+          </div>
+        </div>
+    </div>
+
+      <!--3.3 下 ：为你推荐 #recommend -->
+      <div id="recommend">
+        <p>
+          为你推荐
+          <span>大家都在看</span>
+        </p>
+        <div id="demo">
+          <div id="demo1" class="clear">
+            <div class="details_1">
+              <div class="detail_img1">
+                <a href=""><img src="img/index/floor_1_5.png"></a>
+              </div>
+              <p>手撕蛋糕 早餐三明治蛋糕500g</p>
+            </div>
+            <div class="details_1">
+              <div class="detail_img1">
+                <a href=""><img src="img/index/floor_1_5.png"></a>
+              </div>
+              <p>洽洽 肉干肉脯 霍无甲虎皮凤爪200g/袋</p>
+            </div>
+            <div class="details_1">
+              <div class="detail_img1">
+                <a href=""><img src="img/index/floor_1_5.png"></a>
+              </div>
+              <p>福建友臣肉松棒肉松饼原味整箱 肉松饼2.5kg整箱</p>
+            </div>
+            <div class="details_1">
+              <div class="detail_img1">
+                <a href=""><img src="img/index/floor_1_5.png"></a>
+              </div>
+              <p>宁夏特产 中宁枸杞红250g*2袋</p>
+            </div>
+            <div class="details_1">
+              <div class="detail_img1">
+                <a href=""><img src="img/index/floor_1_5.png"></a>
+              </div>
+              <p>宁夏特产 中宁枸杞红250g*2袋</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!--商品详情  -->
+    <div id="item-info">
+      <!--1、左侧：商品详情，商品评价(800px)-->
+      <div id="details">
+        <!-- 1、页签 -->
+        <ul class="tab">
+          <li class="active">
+            <a href="#">商品详情</a>
+          </li>
+          <li>
+            <a href="#">商品评价</a>
+          </li>
+        </ul>
+        <!--2、规格与包装-->
+        <div id="param">
+          <p>
+            规格与包装
+          </p>
+          <ul>
+            <li>包装:盒装</li>
+            <li>类型:休闲食品</li>
+            <li>保质期:5天</li>
+            <li>生产许可证号:QS3303 2401 1661</li>
+          </ul>
+          <p>商品介绍</p>
+          <ul id="param-details"> 
+            <!--        动态加载      -->
+						<!-- <li> -->
+						<!--  <a href="#">商品名称：${p.lname}</a> -->
+						<!-- </li> -->
+						<!--  <li> -->
+						<!--  <a href="#">分类：${p.classfiy}</a> -->
+						<!--  </li> -->
+						<!--   <li> -->
+						<!--  <a href="#">净含量：${p.weight}</a> -->
+						<!-- </li> -->
+						<!--  <li> -->
+						<!--  <a href="#">商品编号：12570031973</a> -->
+						<!-- </li> -->
+						<!--  <li> -->
+						<!--  <a href="#">存储条件：低温冷藏</a> -->
+						<!-- </li>   -->
+          </ul>
+        </div>
+        <!--3、商品介绍-->
+        <div id="product-intro">
+					<!-- 动态加载 details中					 -->
+					<div class="product-intro"><img src="img/product-sale/badanmu/badanmu-intru(1).jpg" alt=""></div>
+					<div class="product-intro"><img src="img/product-sale/badanmu/badanmu-intru(2).jpg" alt=""></div>
+				</div>
+        <!--4、售后保障-->
+        <div id="sale-protection">
+          <p>
+            售后保障
+          </p>
+          <div>
+            <p class="title">
+              正品保障
+            </p>
+            <p class="content">
+              悦桔商城向您保证所售商品均为正品行货，悦桔自营商品开具机打发票或电子发票。
+            </p>
+            <p class="title">
+              全国联保
+            </p>
+            <p class="content">
+              凭质保证书及悦桔商城发票，可享受全国联保服务，与您亲临商场选购的商品享受相同的质量保证。悦桔商城还为您提供具有竞争力的商品价格和运费政策，请您放心购买！ 注：因厂家会在没有任何提前通知的情况下更改产品包装、产地或者一些附件，本司不能确保客户收到的货物与商城图片、产地、附件说明完全一致。只能确保为原厂正货！并且保证与当时市场上同样主流新品一致。若本商城没有及时更新，请大家谅解！
+            </p>
+          </div>
+        </div>
+        <!--5、包装清单-->
+      </div>
+      <!--2、右侧：加入购物车(160px)-->
+      <ul id="addCart">
+			<!--<li> -->
+			<!-- <img src="img/loading.gif" alt="加载中..." > -->
+			<!-- </li> -->
+        <li class="Lactive">
+          <img src="img/product-details/product_detail_icon_g_9.png" alt="">
+          <a href="javascript:;">规格与包装</a>
+        </li>
+        <li>
+          <img src="img/product-details/product_detail_icon_t_1.png" alt="">
+          <a href="javascript:;">商品介绍</a>
+        </li>
+        <li>
+          <img src="img/product-details/product_detail_icon_d_1.png" alt="">
+          <a href="javascript:;">售后保障</a>
+        </li>
+        <li>
+          <img src="img/product-details/product_detail_icon_up_1.png" alt="">
+          <a href="javascript:;">回到顶部</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!--模态框  -->
+  <div class="modal">
+    <div class="modal-mask"></div>
+    <div class="modal-login">
+      <span class="modal-close">×</span>
+      <a href="javascript:;" class="modal-btn">请登录!</a>
+    </div>
+  </div>
+  <!--尾部-->
+  <footer id="footer">
+		<img src="img/loading.gif" alt="加载中">
+	</footer>
+  <script src="js/jquery-3.2.1.js"></script>
+  <script src="js/ajax.js"></script>
+  <script src="js/product-sale.js"></script>
+  <script src="js/header.js"></script>
+  <script src="js/footer.js"></script>
+ </body>
+</html>

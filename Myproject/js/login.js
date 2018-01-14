@@ -1,0 +1,60 @@
+(()=>{
+	//用户名验证
+  var $txtCode=$(".chkCode>.txtCode"),
+      $ImgCode=$(".chkCode>.ImgCode"),
+      $txtPwd=$("#txtPwd"),
+      $txtName=$("#txtName"),
+      $loginTxtMsg=$(".login-box .txtMsg"),
+      $loginTxtErr=$(".login-box .err");
+	$(".login-form .submit").click("on",function(){
+		//用户名或密码为空，提示错误信息
+		//验证用户名和密码，通过后跳转首页，否则提示错误信息
+		if($.trim($txtName.val())!=""&&$.trim($txtPwd.val())!=""&&$.trim($txtCode.val())!=""){
+			$.ajax({
+        type:"get",
+        url:"data/routes/chkCode.php",
+        data:{code:$txtCode.val()}
+      }).then(msg=>{
+          if(msg=="true"){
+            $.post("data/routes/login.php",$("#form").serialize())
+            .then((text)=>{
+              console.log(text);
+              if(text=="true"){
+                if(location.search!==""){
+                  location=decodeURIComponent(location.search.slice(6));
+                }else{
+                  location="index.html";
+                }
+              }else{
+                $loginTxtMsg.html("用户名或密码错误");
+                $loginTxtErr.css("display","block");
+              }
+            });
+          }else{
+            $loginTxtMsg.html("验证码错误");
+          } 
+      })
+		}else if($.trim($txtName.val())==""||$.trim($txtPwd.val())==""){
+      $loginTxtMsg.html("用户名或密码不能为空");
+			$loginTxtErr.css("display","block");
+    }else{
+      $loginTxtMsg.html("请输入验证码");
+      $loginTxtErr.css("display","block");
+		}
+	});
+	$txtName.focus("on",function(){
+		$loginTxtMsg.html("");
+		$loginTxtErr.css("display","none");
+	});
+	$txtPwd.focus("on",function(){
+		$loginTxtMsg.html("");
+		$loginTxtErr.css("display","none");
+	});
+  $txtCode.focus("on",function(){
+		$loginTxtMsg.html("");
+		$loginTxtErr.css("display","none");
+	});
+  $ImgCode.click("on",()=>{
+     $ImgCode.attr("src","data/routes/getCode.php");
+  })
+})();

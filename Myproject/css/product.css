@@ -1,0 +1,116 @@
+body{
+	background:#fff;
+}
+/*产品头部列表*/
+div.products-title{
+	margin-top:10px;
+	height:250px;
+}
+div.products-title>.pd-tl-details:not(:first-child){
+	height:50px;
+	border:1px solid #F3F3F3;
+	margin-top:10px;
+}
+div.products-title>.pd-tl-details:first-child{
+	height:50px;
+	font-size:15px;
+	box-sizing: border-box;
+  padding-top: 15px;
+}
+div.products-title>.pd-tl-details>p{
+	font-size:15px;
+	position:relative;
+	top:17px;
+	left:10px;
+}
+div.products-title>.pd-tl-details:last-child{
+	border-bottom:1px solid #F3F3F3;
+}
+div.products-title>.pd-tl-details div:first-child{
+	background:#F3F3F3;
+	width:150px;
+	height:50px;
+}
+div.products-title>.pd-tl-details li{
+	float:left;
+	margin-left:35px;
+	font-size:14px;
+}
+div.products-title>.pd-tl-details li:first-child{
+	margin-left:85px;	
+}
+div.pd-tl-brand img{
+	position:relative;
+	bottom:10px;
+}
+/*产品展示区*/
+div.productsOnsale>.Onsale-imgs>ul{
+	display:flex;
+  width:1200px;
+	flex-wrap:wrap;
+}
+div.productsOnsale>.Onsale-imgs li{
+	width:220px;
+	height:280px;
+	border:1px solid #666;
+	margin-bottom:10px;
+  margin-left: 15px;
+}
+div.productsOnsale>.Onsale-imgs img{
+  width:220px;
+  height:220px;
+}
+div.productsOnsale>.Onsale-imgs>ul>li>a{
+  width:220px;
+}
+div.productsOnsale>.Onsale-imgs>ul>li>a p:nth-child(2){
+  color:#e4393c;
+  font-size:20px;
+  display:inline-block;
+}
+div.productsOnsale>.Onsale-imgs p{
+  margin-left:5px;
+}
+div.productsOnsale>.Onsale-imgs a:hover{
+  color:#e4393c;
+  display:inline-block;
+}
+div.productPage{
+  height:80px;
+  width:450px;
+  margin-left:800px;
+}
+div.productPage a{
+	float:left;
+	margin-top:20px;
+	margin-right:15px;
+	width:38px;
+	height:38px;
+	background:#f7f7f7;
+	text-align:center;
+	line-height:38px;
+}
+div.productPage a:first-child{
+	width:70px;
+	height:38px;
+}
+div.productPage a:last-child{
+	width:85px;
+	height:38px;
+}
+
+#pages a{
+  border:1px solid #ddd;
+  border-radius:4px;
+  color:#666;
+}
+#pages a.current{
+  border-color:#F30213;
+  background:#F30213;
+  color:#fff;
+}
+#pages a.disabled{
+  color:#bfbfbf;
+  background:#f2f2f2;
+  border:1px solid #bfbfbf;
+}

@@ -1,0 +1,41 @@
+#foot-bj{
+	background:#fff;
+  margin-top:-28px;
+}
+#foot-bj>.foot{
+	width:1200px;
+	height:200px;
+	position:relative;
+	margin:0 auto;
+}
+#foot-bj .foot>.footText{
+	margin-top:50px;
+}
+#foot-bj .foot>.footText>.footLogo>img{
+	position:absolute;
+	left:250px;
+	top:60px;
+	width:100px;
+}
+#foot-bj .foot>.footText>.footRight{
+	position:absolute;
+	top:50px;
+	left:300px;
+  height:100px;
+  width:600px;
+}
+#foot-bj .foot>.footText>.footRight>ul{
+	float:left;
+  width:200px;
+}
+#foot-bj .foot>.footText>.footRight>ul>li{
+	color:#808080;
+	margin-top:10px;
+	text-align:center;
+}	
+#foot-bj .foot .record{
+	line-height:22px;
+	bottom:20px;
+	position:absolute;
+  left:350px;
+}

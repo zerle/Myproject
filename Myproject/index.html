@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/footer.css">
+ </head>
+ <body>
+	<div class="main">
+
+		<!--页面头部 -->
+		<header id="header">	
+    	<img src="img/loading.gif" alt="加载中...">
+		</header>
+
+		<!--banner部分-->
+		<div class="banner-ad clear">
+			<!--左侧边框-->
+      <div id="productList">
+        <div class="productList">
+          <ul>
+            <li data-id="pd-dt1"><img src="img/ad/nut.png" alt=""><a href="product.html">坚果炒货</a></li>
+            <li data-id="pd-dt2"><img src="img/ad/package.png" alt=""><a href="product.html">休闲零食</a></li>
+            <li data-id="pd-dt3"><img src="img/ad/cake.png" alt=""><a href="product.html">饼干蛋糕</a></li>
+            <li data-id="pd-dt4"><img src="img/ad/meat.png" alt=""><a href="product.html">肉干肉铺</a></li>
+            <li data-id="pd-dt5"><img src="img/ad/chocolate.png" alt=""><a href="product.html">蜜饯果干</a></li>
+            <li data-id="pd-dt6"><img src="img/ad/candy.png" alt=""><a href="product.html">糖果巧克力</a></li>
+          </ul>	
+        </div>
+
+        <!-- 	左侧产品列表详情		 -->
+        <!-- 产品 -->
+        <div  class="productList-details none clear">
+          <div class="pd-dt none" id="pd-dt1">
+            <!--<p class="pd-title">${p.name}</p> -->
+            <!--<a href="#">${p.lname}</a> -->
+            <!--<a href="#">${p.lname}</a> -->
+            <!--<a href="#">${p.lname}</a> --> 				
+            <!--<a href="#">${p.lname}</a> -->
+            <!--<a href="#">${p.lname}</a> -->
+            <!--<a href="#">${p.lname}</a> -->
+            <!--</p> -->
+          </div>
+          <div class="pd-dt none" id="pd-dt2"></div>
+          <div class="pd-dt none" id="pd-dt3"></div>
+          <div class="pd-dt none" id="pd-dt4"></div>
+          <div class="pd-dt none" id="pd-dt5"></div>
+          <div class="pd-dt none" id="pd-dt6"></div>
+          <div class="pd-dt-sale">
+            <p class="pd-title">实力商家</p>
+            <p>
+              <a href="javascript:;">三只松鼠旗舰店</a>
+              <a href="javascript:;">百草味旗舰店</a>
+              <a href="javascript:;">良品铺子旗舰店</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="bannerImage">
+			  <!--  轮播广告-->
+			  <div id="banner">
+				<ul id="banner-img" class="banner-img">
+        <!-- <li><a href="${p.href}" title="${p.title}"><img src="${p.img}" alt="" class="ad"></a></li> -->
+          <!--<li><a href="#"><img src="img/ad/ad2.png" alt="" class="ad"></a></li> -->
+          <!-- <li><a href="#"><img src="img/ad/ad3.png" alt="" class="ad"></a></li> -->
+          <!-- <li><a href="#"><img src="img/ad/ad4.jpg" alt="" class="ad"></a></li> -->
+				</ul>
+			  </div>
+			  <!--轮播广告按钮小圆点-->
+        <div class="banner-ad-dot">
+				  <ul class="dot-wrap" id="indicators">
+          <!-- <li></li> -->
+          <!-- <li></li> -->
+          <!-- <li></li> -->
+          <!-- <li></li> -->
+				  </ul>
+			  </div>
+			  <!--轮播广告左右按钮  -->
+			  <a href="javascript:;" class="ck-slide ck-left"></a>
+			  <a href="javascript:;" class="ck-slide ck-right"></a>
+      </div>
+      <!--  商家头条-->
+      <div class="notice">
+        <a href="product.html"><img src="img/index/2017-10-21_104341.png" alt=""></a>
+        <a href="product.html"><img src="img/index/2017-10-21_104427.png" alt=""></a>
+      </div>
+    </div>
+		<!--秒杀广告  -->
+		<div class="sale-mt clear">
+			<div class="sale-title"><img src="img/ad/sale-t.png" alt=""></div>
+			<div class="sk_cd_main clear">
+				<div class="sk_cd_tip"><span>当前场次</span></div>
+				<div class="sk_cd sk_cd_hour"><span></span></div>
+				<div class="sk_cd_split"><span>:</span></div>
+				<div class="sk_cd sk_cd_minute"><span></span></div>
+				<div class="sk_cd_split"><span>:</span></div>
+				<div class="sk_cd sk_cd_second"><span></span></div>
+				<div class="sk_cd_tip"><span>后结束抢购</span></div>
+			</div>
+			<div class="sale-content">
+				<ul>
+					<!--<li><a href="#"><img src="${m.pic}" alt=""><p>${m.details}</p><p>¥9.90</p><span>¥${m.price}</span></a></li>
+					<li><a href="#"><img src="img/ad/ms2.jpg" alt=""><p>百草味-花生牛轧糖180g</p><p>¥9.90</p><span>¥19.80</span></a></li>
+					<li><a href="#"><img src="img/ad/ms3.jpg" alt=""><p>新疆特产 特级超大黑葡萄干免洗</p><p>¥9.90</p><span>¥26.90</span></a></li>
+					<li><a href="#"><img src="img/ad/ms4.jpg" alt=""><p>建元堂红豆燕麦全麦饼干魔芋饼干</p><p>¥9.90</p><span>¥26.80</span></a></li>
+					<li><a href="#"><img src="img/ad/ms5.jpg" alt=""><p>麻辣五香牛肉干四川特产牛肉类零食</p><p>¥9.90</p><span>¥42.90</span></a></li>
+					<li><a href="#"><img src="img/ad/ms6.jpg" alt=""><p>纯可可脂黑松露形散装零食</p><p>¥9.90</p><span>¥29.90</span></a></li>!-->
+				</ul>
+			</div>
+		</div>
+
+		<!--楼层  零食分类  -->
+
+		<!--1楼 甜品展示  -->
+		<div class="food1 clear" id="f1">
+			<div class="foodTitle clear">
+				<div class="shopTitle left">
+					<h4>甜品</h4>
+					<span>每一道甜品都有一个故事</span>
+				</div>
+				<div class="today-brands right">
+					<a href="#">桂花糕</a>
+					<a href="#">奶皮酥</a>
+					<a href="#">栗子糕</a>
+					<a href="#">马卡龙</a>
+					<a href="#">铜锣烧</a>
+					<a href="#">豌豆黄</a>
+					<a href="#">更多美味</a>
+				</div>
+			</div>
+			<!-- 零食图片展示 -->
+			<div class="foodText">
+				<ul class="fd" id="f1-content">
+					<!-- <li class="fd-one"><a href="${p.href}"><img src="${p.pic}" alt=""></a></li> -->
+					<!-- <li class="fd-range"><a href="${p.href}" title="${p.title}"><img src="${p.pic}" alt=""><p>${p.title}</p><p>¥${parseFloat(p.price).toFixed(2)}</p></a></li> -->
+					<!-- <li class="fd-range"><a href="#"><img src="img/index/floor_1_3.png" alt=""><p>肉松饼</p><p>¥42.80</p></a></li> -->
+					<!-- <li class="fd-range"><a href="#"><img src="img/index/floor_1_4.png" alt=""><p>面 包</p><p>¥17.90</p></a></li> -->
+					<!-- <li class="fd-range"><a href="#"><img src="img/index/floor_1_5.png" alt=""><p>蛋 糕</p><p>¥59.80</p></a></li> -->
+					<!-- <li class="fd-six"><a href="#"><img src="img/index/floor_1_6.png" alt=""></a></li> -->
+					<!-- <li class="fd-range2"><a href="#"><img src="img/index/floor_1_7.png" alt=""><p>瑞士卷</p><p>¥34.90</p></a></li> -->
+					<!-- <li class="fd-range2"><a href="#"><img src="img/index/floor_1_8.png" alt=""><p>蛋糕</p><p>¥125.00</p></a></li> -->
+					<!-- <li class="fd-range2"><a href="#"><img src="img/index/floor_1_9.png" alt=""><p>软 饼</p><p>¥49.00</p></a></li> -->
+					<!-- <li class="fd-range2"><a href="#"><img src="img/index/floor_1_10.png" alt=""><p>面包</p><p>¥29.90</p></a></li> -->
+					<!-- <li class="fd-last"><a href="#"><img src="img/index/floor_1_11.png" alt=""></a></li> -->
+				</ul>
+			</div>
+		</div>
+
+		<!--2楼 果干列表  -->
+		<div class="food1 clear" id="f2">
+			<div class="foodTitle clear">
+				<div class="shopTitle left">
+					<h4>果干</h4>
+					<span>每一个果干都有一个故事</span>
+				</div>
+				<div class="today-brands right">
+					<a href="#">葡萄干</a>
+					<a href="#">芒果干</a>
+					<a href="#">核桃仁</a>
+					<a href="#">碧根果</a>
+					<a href="#">开心果</a>
+					<a href="#">核桃仁</a>
+					<a href="#">更多美味</a>
+				</div>
+			</div>
+			<!-- 零食图片展示 -->
+			<div class="foodText">
+				<ul class="fd" id="f2-content">
+					<!-- <li class="fd-two"><a href="#"><img src="img/inmjgg1-zs.png.png" alt=""></a></li> -->
+					<!-- <li class="fd-range"><a href="#"><img src="img/index/mjgg2-zs.png" alt=""><p>葡萄干</p><p>¥22.90</p></a></li> -->
+					<!-- <li class="fd-range"><a href="#"><img src="img/index/mjgg3-zs.png" alt=""><p>夏威夷果</p><p>¥47.90</p></a></li> -->
+					<!-- <li class="fd-range"><a href="#"><img src="img/index/mjgg4-zs.png" alt=""><p>坚 果</p><p>¥27.90</p></a></li> -->
+					<!-- <li class="fd-range"><a href="#"><img src="img/index/mjgg5-zs.png" alt=""><p>红枣</p><p>¥45.90</p></a></li> -->
+					<!-- <li class="fd-six"><a href="#"><img src="img/index/mjgg6-zs.png" alt=""></a></li> -->
+					<!-- <li class="fd-range2"><a href="#"><img src="img/index/mjgg7-zs.png" alt=""><p>腰 果</p><p>¥69.00</p></a></li> -->
+					<!-- <li class="fd-range2"><a href="#"><img src="img/index/mjgg8-zs.png" alt=""><p>芒果干</p><p>¥10.90</p></a></li> -->
+					<!-- <li class="fd-range2"><a href="#"><img src="img/index/mjgg9-zs.png" alt=""><p>核桃仁</p><p>¥79.90</p></a></li> -->
+					<!-- <li class="fd-range2"><a href="#"><img src="img/index/mjgg10-zs.png" alt=""><p>红 枣</p><p>¥23.90</p></a></li> -->
+					<!-- <li class="fd-last"><a href="#"><img src="img/index/mjgg11-zs.png" alt=""></a></li> -->
+				</ul>
+			</div>
+		</div>
+
+		<!--3楼 肉干列表  -->
+		<div class="food1 clear" id="f3">
+			<div class="foodTitle clear">
+				<div class="shopTitle left">
+					<h4>肉干</h4>
+					<span>每一块肉干都有一个故事</span>
+				</div>
+				<div class="today-brands right">
+					<a href="#">猪肉铺</a>
+					<a href="#">鸡蛋干</a>
+					<a href="#">牛肉片</a>
+					<a href="#">猪肉干</a>
+					<a href="#">鱿鱼条</a>
+					<a href="#">碳烤肠</a>
+					<a href="#">更多美味</a>
+				</div>
+			</div>
+			<!-- 零食图片展示 -->
+			<div class="foodText">
+				<ul class="fd" id="f3-content">
+					<!-- <li class="fd-third"><a href="#"><img src="img/index/floor_3_1.png" alt=""></a></li> -->
+					<!-- <li class="fd-range"><a href="#"><img src="img/index/floor_3_2.png" alt=""><p>猪肉铺</p><p>¥19.90</p></a></li> -->
+					<!-- <li class="fd-range"><a href="#"><img src="img/index/floor_3_3.png" alt=""><p>腊 肠</p><p>¥69.00</p></a></li> -->
+					<!-- <li class="fd-range"><a href="#"><img src="img/index/floor_3_4.png" alt=""><p>凤 爪</p><p>¥20.90</p></a></li> -->
+					<!-- <li class="fd-range"><a href="#"><img src="img/index/floor_3_5.png" alt=""><p>烤 鸭</p><p>¥128.00</p></a></li> -->
+					<!-- <li class="fd-six"><a href="#"><img src="img/index/floor_3_6.png" alt=""></a></li> -->
+					<!-- <li class="fd-range2"><a href="#"><img src="img/index/floor_3_7.png" alt=""><p>牛肉干</p><p>¥41.80</p></a></li> -->
+					<!-- <li class="fd-range2"><a href="#"><img src="img/index/floor_3_8.png" alt=""><p>卤牛肉</p><p>¥29.90</p></a></li> -->
+					<!-- <li class="fd-range2"><a href="#"><img src="img/index/floor_3_9.png" alt=""><p>猪肉干</p><p>¥39.90</p></a></li> -->
+					<!-- <li class="fd-range2"><a href="#"><img src="img/index/floor_3_10.png" alt=""><p>鱼 块</p><p>¥26.60</p></a></li> -->
+					<!-- <li class="fd-last"><a href="#"><img src="img/index/floor_3_11.png" alt=""></a></li> -->
+				</ul>
+			</div>
+		</div>
+
+		<!--4楼 坚果炒货列表  -->
+		<div class="food1 clear" id="f4">
+			<div class="foodTitle clear">
+				<div class="shopTitle left">
+					<h4>坚果</h4>
+					<span>每一袋坚果都有一个故事</span>
+				</div>
+				<div class="today-brands right">
+					<a href="#">扁桃仁</a>
+					<a href="#">山核桃</a>
+					<a href="#">开心果</a>
+					<a href="#">碧根果</a>
+					<a href="#">巴旦木</a>
+					<a href="#">松&nbsp;子</a>
+					<a href="#">更多美味</a>
+				</div>
+			</div>
+			<!-- 零食图片展示 -->
+			<div class="foodText">
+				<ul class="fd" id="f4-content">
+				</ul>
+			</div>
+		</div>
+
+		<!--5楼 休闲食品列表  -->
+		<div class="food1 clear" id="f5">
+			<div class="foodTitle clear">
+				<div class="shopTitle left">
+					<h4>零食</h4>
+					<span>每一袋零食都有一个故事</span>
+				</div>
+				<div class="today-brands right">
+					<a href="#">马卡龙</a>
+					<a href="#">豆&nbsp;皮</a>
+					<a href="#">海&nbsp;苔</a>
+					<a href="#">锅&nbsp;巴</a>
+					<a href="#">薯&nbsp;片</a>
+					<a href="#">汤&nbsp;圆</a>
+					<a href="#">更多美味</a>
+				</div>
+			</div>
+			<!-- 零食图片展示 -->
+			<div class="foodText">
+				<ul class="fd" id="f5-content">	
+				</ul>
+			</div>
+		</div>
+
+		<!--6楼 糖果巧克力列表  -->
+		<div class="food1 clear" id="f6">
+			<div class="foodTitle clear">
+				<div class="shopTitle left">
+					<h4>糖果</h4>
+					<span>每一块糖果都有一个故事</span>
+				</div>
+				<div class="today-brands right">
+					<a href="#">棒棒糖</a>
+					<a href="#">巧克力</a>
+					<a href="#">马卡龙</a>
+					<a href="#">喜&nbsp;糖</a>
+					<a href="#">曲&nbsp;奇</a>
+					<a href="#">棉花糖</a>
+					<a href="#">更多美味</a>
+				</div>
+			</div>
+			<!-- 零食图片展示 -->
+			<div class="foodText">
+				<ul class="fd" id="f6-content">	
+				</ul>
+			</div>
+		</div>
+    <!--楼梯按钮 -->
+    <div id="lift">
+      <ul class="lift_list">
+          <li class="lift_item">
+            <a href="javascript:;" class="lift_btn">
+              <span class="lift_btn_txt">甜品</span>
+            </a>
+          </li>
+          <li class="lift_item">
+            <a href="javascript:;" class="lift_btn">
+              <span class="lift_btn_txt">果干</span>
+            </a>
+          </li>
+          <li class="lift_item">
+            <a href="javascript:;" class="lift_btn">
+              <span class="lift_btn_txt">肉干</span>
+            </a>
+          </li>
+          <li class="lift_item">
+            <a href="javascript:;" class="lift_btn">
+              <span class="lift_btn_txt">坚果</span>
+            </a>
+          </li>
+					<li class="lift_item">
+            <a href="javascript:;" class="lift_btn">
+              <span class="lift_btn_txt">零食</span>
+            </a>
+          </li>
+					<li class="lift_item">
+            <a href="javascript:;" class="lift_btn">
+              <span class="lift_btn_txt">糖果</span>
+            </a>
+          </li>
+          <li class="lift_item" id="lift_top">
+            <a href="javascript:;" class="lift_btn">
+              <span class="lift_btn_txt">顶部</span>
+            </a>
+          </li>
+      </ul>
+    </div>
+	</div>
+	<footer id="footer">
+		<img src="img/loading.gif" alt="加载中">
+	</footer>
+  <script src="js/jquery-3.2.1.js"></script>
+  <script src="js/ajax.js"></script>
+  <script src="js/header.js"></script>
+  <script src="js/footer.js"></script>
+  <script src="js/index.js"></script>
+ </body>
+</html>

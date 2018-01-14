@@ -1,0 +1,198 @@
+div.login{
+  width:100%;
+  height:430px;
+}
+div.loginBanner{
+	background: #fd7a72;
+  width:100%;
+}
+div.login>.lg{
+  margin-left:150px;
+}
+div.login .login-boxtitle{
+	margin:0 auto;
+}
+div.login .login-boxtitle>a>img{
+	height:60px;
+}
+div.login .login-banner{
+	height:430px;
+	position:relative;
+  margin:0 auto;
+}
+div.loginBanner>.login-banner>.login-banner-bg>img{
+	margin-left:85px;
+}
+div.login-box{
+	width:360px;
+	height:380px;
+	position:absolute;
+	background:#f8f8f8;
+	left:800px;
+	top:20px;
+}
+div.login-title{
+	margin:20px 0px;
+  width:360px;
+  height:25px;
+}
+div.login-box h3.title{
+	font-size:18px;
+	color:#000;
+	margin-left:120px;
+	vertical-align:baseline;
+	font-family:arial,"Lantinghei SC","Microsoft Yahei";
+}
+div.login-box a.register-html{
+ background-color:#e6e6e6;
+ border-color:#e6e6e6;
+ margin-right:20px;
+ color:#444;
+ font-size:15px;
+ margin-top:5px;
+}
+/*设置form**/
+div.login-form>form{
+  width:340px;
+  height:236px;
+  margin-left:20px;
+}
+div.login-form>form .upwd,div.login-form>form .user,/*增加注册信息*/div.login-form>form .upwd-vail,div.login-form>form .email,div.login-form>form .phone{
+	position:relative;
+  width:340px;
+  height:42px;
+  margin-bottom:30px;
+}
+div.login-form img:first-child{
+	width:18px;
+	height:18px;
+	position:absolute;
+	top:12px;
+	left:20px;
+}
+div.login-form .user>input,.upwd>input,.upwd-vail>input,/*增加注册信息*/.email>input,.phone>input{
+	height:42px;
+	width:270px;
+	padding-left:50px;
+	outline:none;
+	border:1px solid #999;
+}
+/*验证码*/
+div.chkCode>.txtCode{
+	width:150px;
+	height:30px;
+	font-size: 14px;
+	padding: 10px 50px;
+	vertical-align: middle;
+	margin-right: 10px;
+	outline:none;
+	border:1px solid #999;
+	box-sizing:border-box;
+}
+div.chkCode>.ImgCode{
+	cursor:pointer;
+}
+/*登录*/
+div.login-box>.login-form>form>.submit>input{
+	height:40px;
+	width:320px;
+	margin-top:15px;
+	margin-bottom:20px;
+	outline:none;
+	border:none;
+	background:#0E8CCC;
+	color:#fff;
+	font-size:16px;
+	text-align:center;
+  cursor:pointer;
+}
+div.txt-vail{
+  height:25px;
+}
+div.txt-vail>.err{
+  left:20px;
+  bottom:2px;
+  position:relative;
+  display:none;
+}
+div.txt-vail>span{
+  font-size:15px;
+  color:#EE2222;
+  position:relative;
+  bottom:18px;
+  left:45px;
+}
+
+/*合作账号*/
+div.partner>span{
+	font-size:14px;
+	margin-left:20px;
+}
+div.partner-cm{
+	margin-top:10px;
+  width:340px;
+  height:25px;
+  margin-left:20px;
+}
+div.partner-cm>ul>li{
+	float:left;
+  width:110px;
+}
+div.partner-cm>ul>li>a>img{
+	width:18px;
+	height:18px;
+	margin-right:6px;
+}
+div.partner-cm>ul>li>a>span{
+	font-size:13px;
+	position: relative;
+  top: 4px;
+}
+/*增加注册信息*/
+div.login-form>.form-reg>.register>input{
+	height:40px;
+	width:320px;
+	margin-top:5px;
+	margin-bottom:20px;
+	outline:none;
+	border:none;
+	background:#0E8CCC;
+	color:#fff;
+	font-size:16px;
+	text-align:center;
+  cursor:pointer;
+}
+/*注册信息*/
+div.register{
+	width:360px;
+	height:480px;
+}
+div.login-form>.form-reg{
+  height:355px;
+}
+div.register-bg{
+  height:520px;
+}
+div.loginBanner>.login-banner>.login-banner-img>img{
+	margin-left:85px;
+  margin-top:40px;
+}
+div.login-form .ok{
+  right:25px;
+  top:15px;
+  position:absolute;
+  display:none;
+}
+div.login-form .err{
+  top:50px;
+  left:0px;
+  position:absolute;
+  display:none;
+}
+div.login-form span{
+  font-size:15px;
+  position:absolute;
+  left:32px;
+  top:50px;
+  color:#EE2222;
+}

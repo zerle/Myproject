@@ -1,0 +1,119 @@
+	#logo>img{
+		margin-left:100px;
+	}
+  #input-text{
+    height:46px;
+    width:443px;
+    margin-left:50px;
+    border: 2px solid #F03726;
+    margin-top:20px;
+  }
+  #input-text>input:first-child{
+    padding-left:5px;
+    outline:none;
+    border:none;
+    line-height: 44px;
+    text-align: 40px;
+    display: inline-block;
+    width:348px;
+  }
+  #input-text>input:last-child:hover{
+    cursor:pointer;
+  }
+  #header-top{
+    width:1200px;
+    height:96px;
+    margin:10px auto;
+    position:relative;
+  }
+  #input-text>input:last-child{
+    display:inline-block;
+    height:46px;
+    background:#F03726;
+    width:90px;
+    outline:none;
+    border:none;
+    font-size:18px;
+    color:white;
+  }
+  #shelper{
+    width:353px;
+    overflow: hidden;
+    position: absolute;
+    z-index: 1;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    box-shadow: 1px 2px 1px rgba(0,0,0,.2);
+    left: 350px;
+    top: 70px;
+    display:none;
+  }
+  #shelper>li{
+    overflow: hidden;
+    padding: 1px 6px;
+    line-height: 24px;
+    cursor: pointer;
+  }
+  #shelper>li.hover{
+    background: #e6e6e6;
+  }
+  #shelper>li.focus{ background: lightBlue }
+  #shelper .search-item{
+    color: #005AA0;
+    width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  } 
+
+  #header-top>.register>li,#listWelcome li{
+    float:left;
+  }
+  ul.register,#listWelcome{
+    margin-top:35px;
+    font-size:16px;
+  }
+  #listWelcome{
+    display:none;
+  }
+  #listWelcome li:last-child{
+    margin-left:10px;
+  }
+  div.nav-cont>ul>li{
+    float:left;
+  }
+  div.nav-cont>ul>li a:hover{
+    color:#f10214;
+  }
+  div.shopNav{
+    position:relative;
+    border-bottom:2px solid #d2364c;
+    height:45px;
+  }
+  div.nav-cont>ul>li>a{
+    font-size: 16px;
+    color: #333;
+    line-height: 36px;
+    margin-left: -1px;
+    padding: 0 25px;
+    font-weight: 700;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  div.long-title{
+    background: #d2364c;
+    color: #fff;
+    height: 45px;
+    line-height: 45px;
+    display: block;
+    position: absolute;
+    width: 150px;
+    text-align: center;
+    font-size: 16px;
+    top: 0px;
+    z-index: 6;
+  }
+  div.nav-cont{
+    margin-left:215px;
+    margin-top:5px;
+  }

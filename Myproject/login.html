@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+	<link rel="stylesheet" href="css/login.css">
+	<link rel="stylesheet" href="css/base.css">
+ </head>
+ <body>
+  <div class="login">
+    <div class="lg">
+      <div class="login-boxtitle">
+        <a href="index.html" title="首页">
+          <img src="img/register/logo.png" alt="">
+        </a>
+      </div>
+    </div>
+    <div class="loginBanner">
+      <div class="login-banner">
+        <div  class="login-banner-bg">
+          <img src="img/register/big.jpg" alt="">
+        </div>
+        <div class="login-box clear">
+          <div class="login-title clear">
+            <h3 class="title left">登录商城</h3>
+            <a href="register.html" class="register-html right">注册</a>
+          </div>
+          <div class="txt-vail">
+            <img class="err" src="img/register/err.png" alt="">
+            <span class="txtMsg"></span>
+          </div>
+          <div class="login-form">
+            <form action="" method="post" id="form">
+              <div class="user">
+                <img src="img/register/user.png" alt="">
+                <input id="txtName" type="text" name="uname" placeholder="请输入用户名">	
+              </div>
+              <div class="upwd">
+                <img src="img/register/pwd.png" alt="">
+                <input id="txtPwd" type="password" name="upwd" placeholder="请输入密码">	
+              </div>
+							<!---验证码--->
+							<div class="chkCode">
+								<input type="text" class="txtCode">
+								<img class="ImgCode" src="data/routes/getCode.php" alt="" title="看不清换一张">
+							</div>
+              <div class="submit">
+                <input type="button" value="登 录">
+              </div>
+            </form>
+          </div>
+          <!--  合作账号部分-->
+          <div class="partner">
+            <span>合作账号</span>
+            <div class="partner-cm">
+              <ul>
+                <li><a href=""><img src="img/register/qq.png" alt=""><span>QQ登录</span></a></li>
+                <li><a href=""><img src="img/register/wb.png" alt=""><span>微博登录</span></a></li>
+                <li><a href=""><img src="img/register/wx.png" alt=""><span>微信登录</span></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+	</div>
+  <script src="js/jquery-3.2.1.js"></script>
+  <script src="js/login.js"></script>
+ </body>
+</html>
